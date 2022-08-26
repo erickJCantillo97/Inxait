@@ -35,6 +35,7 @@ class Inicio extends Component
             'ciudad_id' => $this->ciudad,
             'email'=> $this->email,
             'cedula' => $this->cedula,
+            'celular' => $this->celular,
             'habeasData' => $this->habeas 
         ]);
         $this->modelOpen = false;
