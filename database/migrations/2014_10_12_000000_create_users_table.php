@@ -20,7 +20,7 @@ return new class extends Migration
             $table->string('email')->unique();
             $table->string('apellidos');
             $table->integer('cedula')->unique();
-            $table->integer('celular');
+            $table->bigInteger('celular');
             $table->boolean('habeasData')->default(0);
             $table->foreign('ciudad_id')->references('id')->on('ciudads')->onDelete('cascade');
             $table->timestamps();
