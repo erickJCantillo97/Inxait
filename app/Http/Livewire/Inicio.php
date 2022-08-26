@@ -12,7 +12,7 @@ use Livewire\Component;
 
 class Inicio extends Component
 {
-    public $departamento_id, $ciudad, $nombre, $apellidos, $celular, $cedula, $email, $habeas, $modelOpen, $users;
+    public $departamento_id, $ciudad, $nombre, $apellidos, $celular, $cedula, $email, $habeas = false, $modelOpen, $users;
     public $ganador;
 
 
