@@ -30,8 +30,7 @@ php artisan serve
 
 > por efectos de ser prueba, puede que la consulta dure mas de 60 milisegundos, por lo tanto basta con regresar y seguir con el uso de la aplicación.
 
-## first
-- 
+## Uso
 - Para Registrar nuevos usuarios haga click en el boton registar
 - Para realizar el sorteo haga click en el boton realizar concurso
 - Para exportar la base datos de usuario haga click en exportar Excel
